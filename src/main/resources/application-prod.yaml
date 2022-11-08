@@ -10,6 +10,9 @@ spring:
           default-label: main
           username: ${GIT_USERNAME}
           password: ${GIT_PASSWORD}
+          
+encrypt:
+  key: F-JaNdRgUkXp2s5v8y/B?E(H+KbPeShVmYq3t6w9z$C&F)J@NcQfTjWnZr4u7x!A
 
 ead:
   configServer:
@@ -24,5 +27,3 @@ eureka:
     hostname: ${APP_DOMAIN_NAME}
     non-secure-port: 80
 
-encrypt:
-  key: F-JaNdRgUkXp2s5v8y/B?E(H+KbPeShVmYq3t6w9z$C&F)J@NcQfTjWnZr4u7x!A
